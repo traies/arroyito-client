@@ -1,9 +1,9 @@
-import * as React from 'react';
-import { bindActionCreators } from 'redux';
-import { connect, Dispatch } from 'react-redux';
-import { Counter, IProps } from '../components/Counter';
-import * as CounterActions from '../actions/counter';
-import { IState } from '../reducers';
+import * as React from "react";
+import { bindActionCreators } from "redux";
+import { connect, Dispatch } from "react-redux";
+import { Counter, IProps } from "../components/Counter";
+import * as CounterActions from "../actions/counter";
+import { IState } from "../reducers";
 
 function mapStateToProps(state: IState): Partial<IProps> {
   return {
